@@ -10,7 +10,7 @@
 194.39,-188.125,-90.0,top,J2,,,Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical,Conn_01x04_Pin,smt
 265.141001,-207.77,90.0,top,J3,,,CONN_10104110-0001LF_AMP,USB_B_Micro,smt
 261.02,-173.275,180.0,bottom,J4,,,PinHeader_1x02_P1.27mm_Vertical,Conn_01x02_Pin,tht
-228.25525,-219.318001,-90.0,top,J5,,,PinSocket_2x10_P2.00mm_Vertical_SMD,Conn_01x20_Socket,smt
+228.25525,-219.318001,180.0,top,J5,,,SAMTEC-SQW-110-01-X-D,Conn_01x20_Socket,tht
 194.52,-170.675,-90.0,top,J6,,,Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical,Conn_01x04_Pin,smt
 248.565,-207.94,-90.0,top,L2,,,744230900,L_Iron_Coupled_1243,smt
 262.169999,-182.385,0.0,bottom,R1,,,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,120,smt

@@ -1,4 +1,4 @@
-55866522932627
+57615306169387
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102752,6 +102752,13 @@ MCX_conector
 0
 5
 2
+spacelab_lib
+SAMTEC-SQW-110-01-X-D
+translated Allegro footprint
+
+0
+20
+20
 spacelab_lib
 SAMTEC_SSW-126-04-G-D
 
