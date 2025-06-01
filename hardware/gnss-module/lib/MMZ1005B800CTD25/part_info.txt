@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=MMZ1005B800CTD25
+PartCategory=Ferrite Bead
+PackageCategory=Ferrite Bead Chip
+PinCount=2
+Version=5.1
+Released=2021-05-17 14:50:42
+Downloaded=2025-05-31 21:57:55
+3D=Y

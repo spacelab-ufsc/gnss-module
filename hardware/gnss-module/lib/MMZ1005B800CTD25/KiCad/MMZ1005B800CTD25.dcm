@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MMZ1005B800CTD25
+D Ferrite Beads Multi-Layer 80Ohm 25% 100MHz 450mA 190mOhm DCR 0402 Automotive T/R
+K
+F https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_signal_mmz1005_en.pdf
+$ENDCMP
+#
+#End Doc Library

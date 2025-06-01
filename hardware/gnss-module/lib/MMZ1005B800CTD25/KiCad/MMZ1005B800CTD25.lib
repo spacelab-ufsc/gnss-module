@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MMZ1005B800CTD25
+#/1610813/1205295/2.50/2/2/Ferrite Bead
+DEF MMZ1005B800CTD25 FB 0 30 Y Y 1 F N
+F0 "FB" 650 300 50 H V L CNN
+F1 "MMZ1005B800CTD25" 650 200 50 H V L CNN
+F2 "BEADC1005X55N" 650 100 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_signal_mmz1005_en.pdf" 650 0 50 H I L CNN
+F4 "Ferrite Beads Multi-Layer 80Ohm 25% 100MHz 450mA 190mOhm DCR 0402 Automotive T/R" 650 -100 50 H I L CNN "Description"
+F5 "0.55" 650 -200 50 H I L CNN "Height"
+F6 "810-MMZ1005B800CTD25" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TDK/MMZ1005B800CTD25?qs=pvNC7ksEVId%2FdQxGSbgQrg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MMZ1005B800CTD25" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,16 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Height,Mouser Part Number,Mouser Price/Stock,Manufacturer_Name
+C1,1,1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,,,smt,Unpolarized capacitor,,,,
+"C2, C3",2,10uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,,,smt,"Unpolarized capacitor, small symbol",,,,
+C5,1,100uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,,,smt,"Unpolarized capacitor, small symbol",,,,
+D1,1,ESD9B5.0ST5G,SOD-523_0P9X1P3_ONS-M,,,,smt,"ESD protection diode, 5.0Vrwm, SOD-923",,,,
+D2,1,NUP2105L,SOT-723_0P85X1P25_ONS-M,,,,smt,"Dual Line CAN Bus Protector, 24Vrwm",,,,
+FB1,1,MMZ1005B800CTD25,BEADC1005X55N,,MMZ1005B800CTD25,,smt,Ferrite Beads Multi-Layer 80Ohm 25% 100MHz 450mA 190mOhm DCR 0402 Automotive T/R,0.55,810-MMZ1005B800CTD25,https://www.mouser.co.uk/ProductDetail/TDK/MMZ1005B800CTD25?qs=pvNC7ksEVId%2FdQxGSbgQrg%3D%3D,TDK
+"H1, H2, H3, H4",4,MountingHole_Pad,MountingHole_3.2mm_M3_DIN965_Pad,,,,tht,Mounting Hole with connection,,,,
+"J1, J2, J6",3,Conn_01x04_Pin,Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical,,,,smt,"Generic connector, single row, 01x04, script generated",,,,
+J3,1,USB_B_Micro,CONN_10104110-0001LF_AMP,,,,smt,USB Micro Type B connector,,,,
+J4,1,Conn_01x02_Pin,PinHeader_1x02_P1.27mm_Vertical,,,,tht,"Generic connector, single row, 01x02, script generated",,,,
+J5,1,Conn_01x20_Socket,PinSocket_2x10_P2.00mm_Vertical_SMD,,,,smt,"Generic connector, single row, 01x20, script generated",,,,
+L2,1,L_Iron_Coupled_1243,744230900,,,,smt,Coupled inductor with iron core,,,,
+R1,1,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,,,smt,"Resistor, small US symbol",,,,
+R2,1,200,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,,,smt,"Resistor, small US symbol",,,,
+U1,1,LM1117MP-ADJ,SOT-223-3_TabPin2,,,,smt,"800mA Low-Dropout Linear Regulator, adjustable output, SOT-223",,,,
