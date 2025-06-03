@@ -1,4 +1,4 @@
-57615306169387
+61113168118215
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102760,6 +102760,13 @@ translated Allegro footprint
 20
 20
 spacelab_lib
+SAMTEC-SQW-110-01-X-D-VS
+translated Allegro footprint
+
+0
+20
+20
+spacelab_lib
 SAMTEC_SSW-126-04-G-D
 
 
@@ -102822,6 +102829,13 @@ translated Allegro footprint
 0
 52
 52
+spacelab_lib
+Untitled
+
+
+0
+0
+0
 spacelab_lib
 WE-CNSW_0603
 SMT Common Mode Line Filter, 4-leads, body 1.60x0.85mm

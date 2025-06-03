@@ -3641,6 +3641,18 @@
 		(uuid "06303010-2e83-4906-a0cc-9be6f6ba85dc")
 	)
 	(junction
+		(at 182.88 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06fa8bea-dd58-4e04-837f-66878c81db00")
+	)
+	(junction
+		(at 187.96 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11d2bbff-3535-4521-9084-db567a2af149")
+	)
+	(junction
 		(at 71.12 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3651,12 +3663,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2abf0280-c6d5-4a27-9ca6-eb0f69fec2c8")
-	)
-	(junction
-		(at 182.88 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42eb7372-0af8-4935-a6d8-e9e823f7e5f4")
 	)
 	(junction
 		(at 97.79 38.1)
@@ -3687,12 +3693,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82f6021e-2f22-4d1d-aca5-0cfc2963eed3")
-	)
-	(junction
-		(at 187.96 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ca16105-7b89-4dd5-8dd0-8adaf4919742")
 	)
 	(junction
 		(at 121.92 46.99)
@@ -3962,16 +3962,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 182.88 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "219aff2c-4330-4fb2-89f3-561ecf2255cd")
-	)
-	(wire
-		(pts
 			(xy 83.82 50.8) (xy 83.82 48.26)
 		)
 		(stroke
@@ -3979,6 +3969,16 @@
 			(type default)
 		)
 		(uuid "23a95db9-3b1b-44d8-93e7-579b38422954")
+	)
+	(wire
+		(pts
+			(xy 182.88 86.36) (xy 182.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bb3109-12bd-4164-9471-5757c7d20c79")
 	)
 	(wire
 		(pts
@@ -4122,16 +4122,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 214.63 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ed9b6d6-09da-4813-a49d-f7dee8875b97")
-	)
-	(wire
-		(pts
 			(xy 256.54 144.78) (xy 256.54 142.24)
 		)
 		(stroke
@@ -4179,6 +4169,16 @@
 			(type default)
 		)
 		(uuid "600c7e4b-8ab4-4df9-a5a7-b02382b9b535")
+	)
+	(wire
+		(pts
+			(xy 182.88 86.36) (xy 214.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60514b28-3b4e-430f-9243-7f4da8c90c59")
 	)
 	(wire
 		(pts
@@ -4352,16 +4352,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 83.82) (xy 187.96 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b0918e3-539a-44d7-a70e-eed1e81f9ba4")
-	)
-	(wire
-		(pts
 			(xy 134.62 45.72) (xy 134.62 46.99)
 		)
 		(stroke
@@ -4509,6 +4499,16 @@
 			(type default)
 		)
 		(uuid "ac612910-b817-4b11-96ed-7e343a0b9647")
+	)
+	(wire
+		(pts
+			(xy 187.96 83.82) (xy 187.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af051a73-c1e7-4f1d-bb01-6cd41b262b31")
 	)
 	(wire
 		(pts
@@ -5127,7 +5127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "spacelab_lib:SAMTEC-SQW-110-01-X-D"
+		(property "Footprint" "spacelab_lib:SAMTEC-SQW-110-01-X-D-VS"
 			(at 30.48 147.32 0)
 			(effects
 				(font
@@ -7557,7 +7557,6 @@
 	(symbol
 		(lib_id "Power_Protection:NUP2105L")
 		(at 185.42 96.52 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7565,7 +7564,7 @@
 		(dnp no)
 		(uuid "5fbf49da-9c75-4474-bfa1-7820ffac58f4")
 		(property "Reference" "D2"
-			(at 179.07 95.2499 0)
+			(at 191.77 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,7 +7573,7 @@
 			)
 		)
 		(property "Value" "NUP2105L"
-			(at 179.07 97.7899 0)
+			(at 191.77 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7583,7 +7582,7 @@
 			)
 		)
 		(property "Footprint" "spacelab_lib:SOT-723_0P85X1P25_ONS-M"
-			(at 179.705 97.79 0)
+			(at 191.135 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7593,7 +7592,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
-			(at 182.245 93.345 0)
+			(at 188.595 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
