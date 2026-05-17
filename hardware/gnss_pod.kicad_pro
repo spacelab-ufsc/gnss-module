@@ -409,11 +409,22 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
-    "used_designators": "",
+    "top_level_sheets": [
+      {
+        "filename": "gnss_pod.kicad_sch",
+        "name": "gnss_pod",
+        "uuid": "e680590c-df34-48a7-ad22-963cfa41c0a7"
+      }
+    ],
+    "used_designators": "#PWR1-5,J1-3",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "e680590c-df34-48a7-ad22-963cfa41c0a7",
+      "gnss_pod"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

@@ -1,0 +1,9 @@
+Manufacturer=SAMTEC
+PartNumber=SQT-110-01-L-D
+PartCategory=Connector
+PackageCategory=Other
+PinCount=20
+Version=3.3
+Released=2020-02-25 05:12:36
+Downloaded=2026-05-17 22:16:34
+3D=Y

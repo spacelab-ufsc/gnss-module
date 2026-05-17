@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SSQ-126-04-G-D"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-01-13-13:48:32)
+    (mountForm default
+        (footprintRef "RHDR52W64P254_2X26_6655X495X864P")
+        (spec "System")
+    )
+)

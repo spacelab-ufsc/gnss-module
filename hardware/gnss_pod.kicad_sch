@@ -2,9 +2,3282 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid e680590c-df34-48a7-ad22-963cfa41c0a7)
+	(uuid "e680590c-df34-48a7-ad22-963cfa41c0a7")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "gnsspod-sym:SQT-110-01-L-D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J1"
+				(at 20.32 13.462 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SQT-110-01-L-D"
+				(at 20.32 10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SQT11001LD"
+				(at 19.05 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://suddendocs.samtec.com/prints/sqt-1xx-xx-xxx-x-xxx-xxx-mkt.pdf"
+				(at 19.05 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Position per row, Receptacle Connector 0.079\" (2.00mm) Through Hole Gold,  row height-6.65"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "6.65"
+				(at 19.05 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "200-SQT11001LD"
+				(at 19.05 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/SQT-110-01-L-D?qs=FESYatJ8odJGRXnwU%2FSPUg%3D%3D"
+				(at 19.05 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "SAMTEC"
+				(at 19.05 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SQT-110-01-L-D"
+				(at 19.05 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "SQT-110-01-L-D_1_1"
+				(rectangle
+					(start 5.08 8.89)
+					(end 35.56 -19.05)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 6.35 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 6.35 180)
+					(length 5.08)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 0)
+					(length 5.08)
+					(name "USB-D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 3.81 180)
+					(length 5.08)
+					(name "USB+D+/RXD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 1.27 0)
+					(length 5.08)
+					(name "nREST_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 1.27 180)
+					(length 5.08)
+					(name "VARF/CAN1RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -1.27 0)
+					(length 5.08)
+					(name "EVENT2/CAN1TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -1.27 180)
+					(length 5.08)
+					(name "CAN2RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 0)
+					(length 5.08)
+					(name "EVENT1/TXD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -8.89 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 0)
+					(length 5.08)
+					(name "TXD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 0)
+					(length 5.08)
+					(name "RXD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -16.51 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -11.43 0)
+					(length 5.08)
+					(name "TXD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -13.97 0)
+					(length 5.08)
+					(name "RXD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -11.43 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -3.81 180)
+					(length 5.08)
+					(name "PV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -13.97 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -6.35 180)
+					(length 5.08)
+					(name "PPS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -16.51 0)
+					(length 5.08)
+					(name "CAN2TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "gnsspod-sym:SSQ-126-04-G-D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SSQ-126-04-G-D"
+				(at 19.05 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RHDR52W64P254_2X26_6655X495X864P"
+				(at 19.05 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/SSQ-126-04-G-D.pdf"
+				(at 19.05 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "52 Position Receptacle Connector 0.100\" (2.54mm) Through Hole Gold"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "8.64"
+				(at 19.05 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "200-SSQ12604GD"
+				(at 19.05 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=200-SSQ12604GD"
+				(at 19.05 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "SAMTEC"
+				(at 19.05 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SSQ-126-04-G-D"
+				(at 19.05 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "SSQ-126-04-G-D_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -66.04)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -15.24 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -17.78 180)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -20.32 180)
+					(length 5.08)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -22.86 180)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -25.4 180)
+					(length 5.08)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -27.94 180)
+					(length 5.08)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 0)
+					(length 5.08)
+					(name "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -30.48 180)
+					(length 5.08)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 5.08)
+					(name "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -33.02 180)
+					(length 5.08)
+					(name "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 0)
+					(length 5.08)
+					(name "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -35.56 180)
+					(length 5.08)
+					(name "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 0)
+					(length 5.08)
+					(name "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -38.1 180)
+					(length 5.08)
+					(name "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 0)
+					(length 5.08)
+					(name "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -40.64 180)
+					(length 5.08)
+					(name "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -43.18 0)
+					(length 5.08)
+					(name "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -43.18 180)
+					(length 5.08)
+					(name "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -45.72 0)
+					(length 5.08)
+					(name "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -45.72 180)
+					(length 5.08)
+					(name "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 0)
+					(length 5.08)
+					(name "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -48.26 180)
+					(length 5.08)
+					(name "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -50.8 0)
+					(length 5.08)
+					(name "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -50.8 180)
+					(length 5.08)
+					(name "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -53.34 0)
+					(length 5.08)
+					(name "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -53.34 180)
+					(length 5.08)
+					(name "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -55.88 0)
+					(length 5.08)
+					(name "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -55.88 180)
+					(length 5.08)
+					(name "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -58.42 0)
+					(length 5.08)
+					(name "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -58.42 180)
+					(length 5.08)
+					(name "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -60.96 0)
+					(length 5.08)
+					(name "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -60.96 180)
+					(length 5.08)
+					(name "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -63.5 0)
+					(length 5.08)
+					(name "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -63.5 180)
+					(length 5.08)
+					(name "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDREF"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDREF"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDREF_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDREF_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 116.84 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05a8c8a3-3183-498f-804c-dcb14d1acaa9")
+	)
+	(junction
+		(at 175.26 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11d63321-8c04-419f-86f1-d0af6333cace")
+	)
+	(junction
+		(at 232.41 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f5d5c13-c0a7-429b-a4af-9657ea1ae3f5")
+	)
+	(junction
+		(at 116.84 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "988c4345-51e1-4068-be44-22590747d193")
+	)
+	(junction
+		(at 194.31 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb578711-84c6-485e-bfbf-152c00f2744a")
+	)
+	(junction
+		(at 137.16 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d04c1587-c536-4968-8131-66dd84e593cf")
+	)
+	(junction
+		(at 116.84 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e57dd028-39a6-4e04-a621-0a2ea1fb4930")
+	)
+	(wire
+		(pts
+			(xy 224.79 106.68) (xy 232.41 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bec632-7532-47be-89f0-ff45c720fed2")
+	)
+	(wire
+		(pts
+			(xy 175.26 109.22) (xy 175.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c22fa2-8cd9-461b-a193-5b1946110241")
+	)
+	(wire
+		(pts
+			(xy 116.84 111.76) (xy 116.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0883f89c-7d82-44b1-a6a2-4b5a6aef312b")
+	)
+	(wire
+		(pts
+			(xy 110.49 106.68) (xy 116.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a610c14-49e0-4d49-8152-ccb2f8a88330")
+	)
+	(wire
+		(pts
+			(xy 137.16 109.22) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d48d5e-f289-4c82-908a-404a5ce4b517")
+	)
+	(wire
+		(pts
+			(xy 62.23 104.14) (xy 69.85 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a043ec8-592e-4d82-bc0a-a7ae966ef10b")
+	)
+	(wire
+		(pts
+			(xy 116.84 106.68) (xy 116.84 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f944c24-e5b2-48a5-bfd4-4fd13ae99e68")
+	)
+	(wire
+		(pts
+			(xy 137.16 93.98) (xy 144.78 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c2ee64-aeef-46be-9e2f-c2260750605b")
+	)
+	(wire
+		(pts
+			(xy 194.31 106.68) (xy 201.93 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25474b83-593a-4850-829d-a345cec70d84")
+	)
+	(wire
+		(pts
+			(xy 137.16 109.22) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34cf4fcf-7d4e-4ad9-9c0b-96d06375ae60")
+	)
+	(wire
+		(pts
+			(xy 116.84 104.14) (xy 116.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397eef88-d596-469a-b0e2-794114f8d205")
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a6403f8-ce5f-4d02-9891-767fdaccff93")
+	)
+	(wire
+		(pts
+			(xy 194.31 109.22) (xy 194.31 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb8b4a3-c1c6-4423-a229-dc0d7e2ffb89")
+	)
+	(wire
+		(pts
+			(xy 110.49 104.14) (xy 116.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3aa542-6cf9-4386-a455-01be70544685")
+	)
+	(wire
+		(pts
+			(xy 232.41 109.22) (xy 232.41 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53bf5ca1-0857-40ee-bbd7-83511a32bd56")
+	)
+	(wire
+		(pts
+			(xy 110.49 109.22) (xy 116.84 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5477f290-0de4-4c85-aba3-642c7f15b1d5")
+	)
+	(wire
+		(pts
+			(xy 110.49 88.9) (xy 116.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59265db0-e11d-4186-bef7-e30283220185")
+	)
+	(wire
+		(pts
+			(xy 194.31 109.22) (xy 201.93 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c270a00-7a66-4796-8174-d8110b05ebff")
+	)
+	(wire
+		(pts
+			(xy 167.64 106.68) (xy 175.26 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715d0e3d-abb5-4c2d-a5e7-d29ed5130677")
+	)
+	(wire
+		(pts
+			(xy 110.49 111.76) (xy 116.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c4b761-01c3-4c79-8aa3-d4c0dfc7e508")
+	)
+	(wire
+		(pts
+			(xy 224.79 109.22) (xy 232.41 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3f19fa-9ce1-4f49-9f10-8274b0295023")
+	)
+	(wire
+		(pts
+			(xy 137.16 106.68) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862bd341-8061-4303-929a-f59d26500e6e")
+	)
+	(wire
+		(pts
+			(xy 232.41 106.68) (xy 232.41 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac5929f-53d9-48ed-9595-7832bce08e2a")
+	)
+	(wire
+		(pts
+			(xy 137.16 106.68) (xy 144.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e24d634-06bf-4fe7-b592-a48b6c897aab")
+	)
+	(wire
+		(pts
+			(xy 167.64 109.22) (xy 175.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98dc759e-fc2e-4b5a-80aa-2e509ab94ca7")
+	)
+	(wire
+		(pts
+			(xy 194.31 106.68) (xy 194.31 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc715726-4c29-4f53-9398-7b349d604b71")
+	)
+	(wire
+		(pts
+			(xy 62.23 101.6) (xy 69.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02ccfce-2c99-4991-90b0-399b0a0835a2")
+	)
+	(wire
+		(pts
+			(xy 116.84 109.22) (xy 116.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6d625c-1f08-4915-a7da-660c37820102")
+	)
+	(wire
+		(pts
+			(xy 175.26 106.68) (xy 175.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc562611-4e9f-4d36-86d2-f1543f5b7f04")
+	)
+	(label "RX1"
+		(at 62.23 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34f61a69-6464-448c-92dd-0fb05b8708ab")
+	)
+	(label "3V3"
+		(at 116.84 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "363ec194-1cc1-4d2a-8458-54e104e49e41")
+	)
+	(label "TX1"
+		(at 137.16 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5394ebc6-2587-4e64-b6d0-d121a210ee4a")
+	)
+	(label "RX1"
+		(at 137.16 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cfc4b50-7da4-428d-a38b-3822678d86cb")
+	)
+	(label "TX1"
+		(at 62.23 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c936b194-111c-42b4-939e-688e706453e4")
+	)
+	(symbol
+		(lib_id "gnsspod-sym:SQT-110-01-L-D")
+		(at 69.85 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e89072a-58d2-4b2b-a807-ad2f7626f536")
+		(property "Reference" "J1"
+			(at 90.17 81.788 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SQT-110-01-L-D"
+			(at 90.17 84.328 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SQT11001LD"
+			(at 88.9 190.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/prints/sqt-1xx-xx-xxx-x-xxx-xxx-mkt.pdf"
+			(at 88.9 290.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Position per row, Receptacle Connector 0.079\" (2.00mm) Through Hole Gold,  row height-6.65"
+			(at 69.85 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "6.65"
+			(at 88.9 490.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "200-SQT11001LD"
+			(at 88.9 590.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/SQT-110-01-L-D?qs=FESYatJ8odJGRXnwU%2FSPUg%3D%3D"
+			(at 88.9 690.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 88.9 790.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQT-110-01-L-D"
+			(at 88.9 890.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "8"
+			(uuid "51141b96-ae1d-4840-910d-c0038e93998f")
+		)
+		(pin "15"
+			(uuid "c16eb6db-a0e5-4af8-9b8c-771825079384")
+		)
+		(pin "14"
+			(uuid "c38d2109-6085-4ac7-a3bf-01336901ed75")
+		)
+		(pin "13"
+			(uuid "e43aedc4-0d21-4483-84eb-241091865016")
+		)
+		(pin "12"
+			(uuid "9af580fe-8a52-4b42-bff1-77cc1049d96a")
+		)
+		(pin "11"
+			(uuid "93e45014-ad99-4a42-8860-24c2687fdd71")
+		)
+		(pin "18"
+			(uuid "0099d38d-c5df-45a9-b72a-87a36056079e")
+		)
+		(pin "1"
+			(uuid "202f09be-f3d2-42db-834c-3c948838066e")
+		)
+		(pin "3"
+			(uuid "3069c830-dfc1-4124-86c5-3101cb96f289")
+		)
+		(pin "4"
+			(uuid "3061643f-b16a-4dba-89da-db0b6688d8af")
+		)
+		(pin "19"
+			(uuid "afa92b01-46ee-44a2-b86d-12d71c502797")
+		)
+		(pin "17"
+			(uuid "edde99a9-70d5-4524-a1bc-33ebc04d07fb")
+		)
+		(pin "9"
+			(uuid "4cc417e4-4d1f-4232-b448-9e45d556ade5")
+		)
+		(pin "20"
+			(uuid "0c7ea668-8624-43f7-b306-902b2a05d000")
+		)
+		(pin "10"
+			(uuid "61c3afcd-ef08-40d5-9c2e-9dc17c5999dd")
+		)
+		(pin "16"
+			(uuid "2e3de0ac-11b9-4ecb-83e7-3a2e9c3bb412")
+		)
+		(pin "2"
+			(uuid "49f61798-96ae-4fda-a6ce-035bed84d267")
+		)
+		(pin "5"
+			(uuid "21e430a5-5459-49a6-8b2a-e5f25b228e16")
+		)
+		(pin "6"
+			(uuid "36071d3c-7971-470d-9731-53267a989687")
+		)
+		(pin "7"
+			(uuid "ec92ea9a-b6c6-49b0-ae11-36475ab2970e")
+		)
+		(instances
+			(project "gnss_pod"
+				(path "/e680590c-df34-48a7-ad22-963cfa41c0a7"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "gnsspod-sym:SSQ-126-04-G-D")
+		(at 201.93 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a97af30-2b5b-4e6f-863a-538ccd43a3f9")
+		(property "Reference" "J3"
+			(at 213.36 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SSQ-126-04-G-D"
+			(at 213.36 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RHDR52W64P254_2X26_6655X495X864P"
+			(at 220.98 166.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/SSQ-126-04-G-D.pdf"
+			(at 220.98 266.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "52 Position Receptacle Connector 0.100\" (2.54mm) Through Hole Gold"
+			(at 201.93 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.64"
+			(at 220.98 466.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "200-SSQ12604GD"
+			(at 220.98 566.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=200-SSQ12604GD"
+			(at 220.98 666.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 220.98 766.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SSQ-126-04-G-D"
+			(at 220.98 866.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "40"
+			(uuid "4a30d3c5-a0ac-4bcc-a40d-b7ad6bef5592")
+		)
+		(pin "12"
+			(uuid "65360c66-ee05-49cf-b540-f286809dad6b")
+		)
+		(pin "23"
+			(uuid "d9c4c031-dbb0-46f7-8505-a59fa07a410c")
+		)
+		(pin "36"
+			(uuid "0cddea20-8591-409a-beaf-65bf19bf34d7")
+		)
+		(pin "44"
+			(uuid "045c4aba-29e0-4894-a5fc-239037f24835")
+		)
+		(pin "32"
+			(uuid "ee005a12-07ad-4ff7-a0c8-81cd6a976077")
+		)
+		(pin "30"
+			(uuid "afa27432-10ac-4b8d-ba53-8a8bbf044436")
+		)
+		(pin "31"
+			(uuid "f98e9790-32a9-4c81-adef-78e61ad210be")
+		)
+		(pin "6"
+			(uuid "93e74bc4-851b-49d7-a1f4-bdffbf35ad61")
+		)
+		(pin "43"
+			(uuid "e647347e-ec25-4970-901f-5aea9cf91565")
+		)
+		(pin "19"
+			(uuid "114fa2e7-148e-4a38-a8b6-86c39bbdf697")
+		)
+		(pin "46"
+			(uuid "fb9efdd0-023d-419c-9569-3855f4bfedb6")
+		)
+		(pin "13"
+			(uuid "e4c0a938-aa08-46ab-ba85-71ff5871afd9")
+		)
+		(pin "22"
+			(uuid "d6524b84-6f60-495d-98e3-0b7a4376057d")
+		)
+		(pin "21"
+			(uuid "c00d544a-11b3-4d9b-bb30-cd1da8ffc279")
+		)
+		(pin "47"
+			(uuid "80c9eadf-be19-4bc2-af15-6cf1587ac81f")
+		)
+		(pin "15"
+			(uuid "db8f7815-d684-4325-beaa-64659bb12c20")
+		)
+		(pin "26"
+			(uuid "1e3a9eb7-f83f-4011-8d1d-3db0787b0fc9")
+		)
+		(pin "38"
+			(uuid "ebebdd28-6e6f-4cb8-b0c6-1b7434f92516")
+		)
+		(pin "33"
+			(uuid "97804ffc-1169-4be3-a0b2-d673139372e4")
+		)
+		(pin "7"
+			(uuid "6060b134-6316-4350-a211-6526ae22e410")
+		)
+		(pin "18"
+			(uuid "3db86a80-608d-4024-9dfb-602b04a01c51")
+		)
+		(pin "49"
+			(uuid "940d1384-3c6b-45b5-862f-de0851e97f74")
+		)
+		(pin "37"
+			(uuid "15dd9592-5814-48a4-812e-99f758ba2587")
+		)
+		(pin "52"
+			(uuid "298fb304-283c-428b-9c3e-43186822d853")
+		)
+		(pin "42"
+			(uuid "ec5e66b0-be1c-4c1c-992b-74f6a4a58cb8")
+		)
+		(pin "20"
+			(uuid "9d93fd5e-78bd-473f-8890-984516b7fbf2")
+		)
+		(pin "29"
+			(uuid "be26163b-c8a5-45bf-9b7e-a77daba9147a")
+		)
+		(pin "35"
+			(uuid "536998bb-28ed-43c0-bfcf-33dba2e623e5")
+		)
+		(pin "25"
+			(uuid "c654265c-6025-4baa-aaa3-f55bff44d305")
+		)
+		(pin "3"
+			(uuid "99b4ed8f-faa5-403c-bf13-b6d8ecd4d10a")
+		)
+		(pin "2"
+			(uuid "ef8fcce8-4f40-48ef-a18a-74a57db8e5d9")
+		)
+		(pin "1"
+			(uuid "829fcb7c-56e6-4205-ba4b-c58f580dfd25")
+		)
+		(pin "4"
+			(uuid "3bcfec6c-1163-4004-8753-4970e21d0ddf")
+		)
+		(pin "14"
+			(uuid "4229a857-f470-449f-ae10-6ce26df44277")
+		)
+		(pin "34"
+			(uuid "55698b51-daec-47e7-83b1-dc8ebc8dd13a")
+		)
+		(pin "5"
+			(uuid "cbf808b6-6228-465a-82b6-ac18cbd40310")
+		)
+		(pin "41"
+			(uuid "af13152e-88f8-4b77-9d64-4404dfe9c6ee")
+		)
+		(pin "28"
+			(uuid "e5a9c46c-7c70-42e4-ae11-092aaa2aeb64")
+		)
+		(pin "24"
+			(uuid "1335320a-d3fc-4f5a-ac44-e4e838ccdcde")
+		)
+		(pin "9"
+			(uuid "dd8ee654-6d63-436d-b3ba-130cb46b26bb")
+		)
+		(pin "45"
+			(uuid "ebe62271-c9a1-414d-a03e-eb8c1212c36a")
+		)
+		(pin "48"
+			(uuid "a18dd24d-c142-4679-8dcb-4d5e107756db")
+		)
+		(pin "39"
+			(uuid "b74c5f91-28e7-4bbc-bbc7-d142bc3f3443")
+		)
+		(pin "10"
+			(uuid "52f96e7d-a1b8-4bb8-b48b-01bc1ef33018")
+		)
+		(pin "51"
+			(uuid "0e806ac9-ab85-44a1-98b4-2ce83ac9bed0")
+		)
+		(pin "27"
+			(uuid "662740ac-af1b-4f02-9894-89afa10d4274")
+		)
+		(pin "16"
+			(uuid "c7122cbf-1fb2-4cf2-9136-0231ba196fa5")
+		)
+		(pin "8"
+			(uuid "51c9a69b-4790-4c09-a0fa-33c237564c5f")
+		)
+		(pin "50"
+			(uuid "336e5731-8c0d-45f5-9278-6157280372d5")
+		)
+		(pin "11"
+			(uuid "ae3cb7b6-b27e-46cf-9645-5b7b9e46db19")
+		)
+		(pin "17"
+			(uuid "949509af-0bdf-4c8d-9f01-2d1f817a6534")
+		)
+		(instances
+			(project "gnss_pod"
+				(path "/e680590c-df34-48a7-ad22-963cfa41c0a7"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 116.84 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77842a75-1020-4dd4-88e6-133cb61259c8")
+		(property "Reference" "#PWR01"
+			(at 116.84 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 116.84 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3e699c2-bca8-4c75-8dfa-e2e55e6e19d5")
+		)
+		(instances
+			(project "gnss_pod"
+				(path "/e680590c-df34-48a7-ad22-963cfa41c0a7"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 232.41 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0f7766f-e6b8-4904-b5dd-770870e61be1")
+		(property "Reference" "#PWR05"
+			(at 232.41 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 232.41 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 232.41 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b010dde-581e-44fa-8e85-e9aee2f055a8")
+		)
+		(instances
+			(project "gnss_pod"
+				(path "/e680590c-df34-48a7-ad22-963cfa41c0a7"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 137.16 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2f04f0d-c8d6-4d4f-9e47-37fd542f0cc9")
+		(property "Reference" "#PWR02"
+			(at 137.16 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 137.16 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 137.16 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d09017b3-f2bc-41e3-9da0-f1f07edc81f3")
+		)
+		(instances
+			(project "gnss_pod"
+				(path "/e680590c-df34-48a7-ad22-963cfa41c0a7"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 175.26 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aba5e259-3d84-4546-a1e6-96d3f7516ed8")
+		(property "Reference" "#PWR03"
+			(at 175.26 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 175.26 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 175.26 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6debc30d-1285-4754-83ab-cbc6927aeda6")
+		)
+		(instances
+			(project "gnss_pod"
+				(path "/e680590c-df34-48a7-ad22-963cfa41c0a7"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "gnsspod-sym:SSQ-126-04-G-D")
+		(at 144.78 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db5f4741-4554-41d8-b638-5d3872d643d2")
+		(property "Reference" "J2"
+			(at 156.21 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SSQ-126-04-G-D"
+			(at 156.21 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RHDR52W64P254_2X26_6655X495X864P"
+			(at 163.83 166.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/SSQ-126-04-G-D.pdf"
+			(at 163.83 266.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "52 Position Receptacle Connector 0.100\" (2.54mm) Through Hole Gold"
+			(at 144.78 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.64"
+			(at 163.83 466.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "200-SSQ12604GD"
+			(at 163.83 566.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=200-SSQ12604GD"
+			(at 163.83 666.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 163.83 766.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SSQ-126-04-G-D"
+			(at 163.83 866.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "93f3e42d-a0da-4a87-8396-00bf80a72c02")
+		)
+		(pin "3"
+			(uuid "8b434734-3b08-415e-aa1c-9db6c19d3754")
+		)
+		(pin "27"
+			(uuid "b219aff7-42b5-44b8-a2ed-624bfcec8678")
+		)
+		(pin "47"
+			(uuid "343f4a0b-f7be-4e5d-8fb8-a2a757f6ecfc")
+		)
+		(pin "21"
+			(uuid "3ca3848d-1fb4-42d6-b7a5-a80af85866b1")
+		)
+		(pin "14"
+			(uuid "1ffc29af-c253-4502-ae93-e683993a2d23")
+		)
+		(pin "26"
+			(uuid "64eb2680-663a-4481-b45f-f01f8216d77e")
+		)
+		(pin "46"
+			(uuid "6db0ae6c-4c35-435d-9924-a5d2445b9862")
+		)
+		(pin "8"
+			(uuid "b64020a9-1aaa-4bff-b0b5-fe15b09aaf35")
+		)
+		(pin "15"
+			(uuid "fc69265f-0fee-488f-8428-96fc6daef483")
+		)
+		(pin "7"
+			(uuid "d840b705-0da9-4386-bdbd-ba75d0f34bf6")
+		)
+		(pin "52"
+			(uuid "db5afb06-476f-4cb9-9ec6-c6c6f359d87a")
+		)
+		(pin "39"
+			(uuid "31b4b76d-0dc8-4ad5-a5ad-8a1056ab15aa")
+		)
+		(pin "37"
+			(uuid "3cae1f79-0afc-4c5e-af27-9c2012626268")
+		)
+		(pin "38"
+			(uuid "97a55e15-0121-4a0a-911f-9e2dc23a89ba")
+		)
+		(pin "31"
+			(uuid "10d5d722-a900-459d-a311-c55984998bf2")
+		)
+		(pin "32"
+			(uuid "003d5fc4-c1b4-450e-ab02-4bcac14f3fbc")
+		)
+		(pin "35"
+			(uuid "0861f3ed-c463-4ae7-beb8-4eea941fb0cf")
+		)
+		(pin "34"
+			(uuid "42ed412b-c1ef-46bd-ba78-026b39508a46")
+		)
+		(pin "33"
+			(uuid "e27cee01-cb28-4a45-8382-c3222e3adf10")
+		)
+		(pin "36"
+			(uuid "441a2d69-6565-4b69-bd80-bdc1b251985b")
+		)
+		(pin "50"
+			(uuid "b8f7da56-f6ea-40ec-8214-bd365ea130b6")
+		)
+		(pin "23"
+			(uuid "35729532-966f-4ab6-b5a3-0d0257a6c045")
+		)
+		(pin "24"
+			(uuid "a5951b89-1fee-4e2c-a62a-6d7aa4a30a28")
+		)
+		(pin "41"
+			(uuid "9acabc3b-ba5f-46aa-bc25-34309ada3974")
+		)
+		(pin "4"
+			(uuid "c503917d-a43f-404c-91f2-7e1fc5ee0539")
+		)
+		(pin "29"
+			(uuid "6e8d0d5b-6a29-46ca-8acd-85e6bb4c2193")
+		)
+		(pin "16"
+			(uuid "b43f93ae-69b5-4d05-875b-2f54ad1f9dcf")
+		)
+		(pin "2"
+			(uuid "3a939ffc-587e-491f-9719-cb95353161b6")
+		)
+		(pin "25"
+			(uuid "c3677a8e-0b92-401b-8392-a36fc19f8f36")
+		)
+		(pin "12"
+			(uuid "f7b925d1-2352-4eb0-866b-1d1e1c0ee9e0")
+		)
+		(pin "30"
+			(uuid "379ef80e-b470-4816-83b3-f2c0dcf021dc")
+		)
+		(pin "28"
+			(uuid "977b6640-46f2-430d-89a4-5ed33e6a7d8f")
+		)
+		(pin "51"
+			(uuid "f909eabc-16c8-4ae4-9493-794f59fa292e")
+		)
+		(pin "19"
+			(uuid "7663cceb-ce67-46ea-ad5d-823368e3065c")
+		)
+		(pin "1"
+			(uuid "affc95a8-a2d6-48bd-9465-0e62834d4cab")
+		)
+		(pin "20"
+			(uuid "7fc784db-fdff-46aa-a521-6515b074540d")
+		)
+		(pin "43"
+			(uuid "3a61635f-987b-4fbd-a29e-44af97359664")
+		)
+		(pin "40"
+			(uuid "eed34b4a-19f7-4df1-8813-f728e81b85a1")
+		)
+		(pin "49"
+			(uuid "20f148ee-86fc-4bd0-b79f-0f073ce09dd3")
+		)
+		(pin "44"
+			(uuid "dbdfb065-2f3a-4b86-96b1-52ac5ad1fdda")
+		)
+		(pin "17"
+			(uuid "e45a2da6-8d88-488a-b52e-e8e07740b717")
+		)
+		(pin "9"
+			(uuid "d24bf26b-23e5-4fb1-9a27-8adbb574bca7")
+		)
+		(pin "45"
+			(uuid "7ca65405-d1e8-42f9-a59b-7d6d8b1a6c9d")
+		)
+		(pin "42"
+			(uuid "fdbccaaa-01a7-45a8-b244-9cc80361c67d")
+		)
+		(pin "11"
+			(uuid "42aab2f2-457a-4802-b830-052d59566fed")
+		)
+		(pin "13"
+			(uuid "af9bef9b-b796-48a6-88c3-18d3a615ba82")
+		)
+		(pin "48"
+			(uuid "10a58c69-1b4c-4efd-a861-1968a970ac4b")
+		)
+		(pin "18"
+			(uuid "16d678d1-26b1-4361-a53a-e736882968ef")
+		)
+		(pin "22"
+			(uuid "ae811a59-5a67-4aaa-a3c0-23bfde1dd877")
+		)
+		(pin "10"
+			(uuid "c1281262-98ab-4fc9-bced-61144bb2c3d0")
+		)
+		(pin "5"
+			(uuid "51b9ada0-2e02-4bae-94c0-5c9c65e2c0a9")
+		)
+		(instances
+			(project "gnss_pod"
+				(path "/e680590c-df34-48a7-ad22-963cfa41c0a7"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 194.31 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f31c038c-2e43-4231-bef3-672416822929")
+		(property "Reference" "#PWR04"
+			(at 194.31 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 194.31 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 194.31 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca8561dc-033a-4189-bb3e-b38b66886409")
+		)
+		(instances
+			(project "gnss_pod"
+				(path "/e680590c-df34-48a7-ad22-963cfa41c0a7"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

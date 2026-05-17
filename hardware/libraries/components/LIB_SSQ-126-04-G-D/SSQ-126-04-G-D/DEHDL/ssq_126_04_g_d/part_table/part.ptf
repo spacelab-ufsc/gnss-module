@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SSQ_126_04_G_D'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SAMTEC", "SSQ-126-04-G-D" (!) = "", "RHDR52W64P254_2X26_6655X495X864P", "Header, Receptacle - Straight PTH Box", "200-SSQ12604GD", "https://www.mouser.com/Search/Refine.aspx?Keyword=200-SSQ12604GD", "52 Position Receptacle Connector 0.100" (2.54mm) Through Hole Gold", "https://componentsearchengine.com/Datasheets/1/SSQ-126-04-G-D.pdf", "8.64 mm"
+END_PART
+
+END.
