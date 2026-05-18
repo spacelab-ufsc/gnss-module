@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "SQT-110-01-L-D") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/SQT-110-01-L-D.kicad_sym") (options "") (descr ""))
+	(lib (name "SSQ-126-04-G-D") (type "KiCad") (uri "${KIPRJMOD}/libraries/components/LIB_SSQ-126-04-G-D/SSQ-126-04-G-D/KiCad/SSQ-126-04-G-D.kicad_sym") (options "") (descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "gnss_pod_Bib") (type "KiCad") (uri "${KIPRJMOD}/libraries/bib/gnss_pod_Bib.pretty") (options "") (descr ""))
+)
