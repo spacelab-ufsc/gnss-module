@@ -1,5 +1,5 @@
 <h1 align="center">
-	GNSS POD - Global Navigation Satellite System Precise Orbit Determination
+	GNSS POD Holder - Global Navigation Satellite System & Precise Orbit Determination Holder
 	<br>
 </h1>
 
