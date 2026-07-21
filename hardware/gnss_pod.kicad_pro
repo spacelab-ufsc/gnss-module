@@ -63,7 +63,7 @@
           "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -253,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.0.1-P"
+      "sch_revision": "0.1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -674,13 +674,17 @@
         "uuid": "e680590c-df34-48a7-ad22-963cfa41c0a7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1,J6,IC1,R1-2,#PWR5,#PWR7-13,C1-3,FB1-3",
     "variants": []
   },
   "sheets": [
     [
       "e680590c-df34-48a7-ad22-963cfa41c0a7",
       "gnss_pod"
+    ],
+    [
+      "b9e71f99-fc0c-428c-88d7-6e8e72e6b340",
+      "holder_can"
     ]
   ],
   "text_variables": {},

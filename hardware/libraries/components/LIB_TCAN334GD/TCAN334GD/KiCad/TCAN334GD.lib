@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TCAN334GD
+#/716137/1785908/2.50/8/3/Integrated Circuit
+DEF TCAN334GD IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TCAN334GD" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/TCAN334G" 950 0 50 H I L CNN
+F4 "3.3-V CAN Transceivers with CAN FD (Flexible Data Rate)" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "595-TCAN334GD" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCAN334GD?qs=gMfM3zrbS4pQF0cEoeDMVQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TCAN334GD" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X TXD 1 0 0 200 R 50 50 0 0 I
+X GND 2 0 -100 200 R 50 50 0 0 W
+X VCC 3 0 -200 200 R 50 50 0 0 W
+X RXD 4 0 -300 200 R 50 50 0 0 O
+X S 8 1100 0 200 L 50 50 0 0 I
+X CANH 7 1100 -100 200 L 50 50 0 0 B
+X CANL 6 1100 -200 200 L 50 50 0 0 B
+X SHDN 5 1100 -300 200 L 50 50 0 0 I
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
