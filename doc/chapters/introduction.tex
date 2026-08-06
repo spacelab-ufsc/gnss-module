@@ -1,0 +1,54 @@
+%
+% introduction.tex
+%
+% Copyright The GNSS POD Contributors.
+%
+% GNSS POD Documentation
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+% International License. To view a copy of this license,
+% visit http://creativecommons.org/licenses/by-sa/4.0/.
+%
+
+%
+% \brief Introduction chapter.
+%
+% \author Arthur Farias de Souza Filho <arthur-filho@live.com>
+% \author João Victor Perin <joaoperin.ufsc@gmail.com>
+%
+% \version 0.0.0
+%
+% \date 2026/06/18
+%
+
+
+\chapter{Introduction} \label{ch:introduction}
+
+The GNSS P.O.D is a Global Navigation Satellite System and Precise Orbit Determination module that integrates Novatel OEM719 Multi-Frequency GNSS receiver to a holder designed, based on the CubeSat standard PCB, for PC-104 compatibility. It is one of the service modules developed for the Floripasat-RO Cubesat Misstion \cite{???}.
+
+The module captures and process radio signals from GNSS constellations, such as GPS, Galileo, GLONASS, and BeiDou. By calculating the time it takes for each signal to reach it, the GNSS P.O.D determines its own exact location, altitude, and velocity on Earth or in space. All the project, source, and documentation files are available freely on a GitHub repository \cite{???} under CERN OHLv2 (hardware) license {\color{red}VERIFY LICENSES}
+
+% The TTC 2.0 is a Telemetry, Tracking and Command module designed for nanosatellites. It is one of the service modules developed for the GOLDS-UFSC CubeSat Mission \cite{floripasat2}, and part of the FloripaSat-2 platform \cite{marcelino2023}.
+
+% The module is a direct upgrade from the TTC of FloripaSat-1 \cite{ttc-fsat}, which grants a flight heritage rating. The improvements focus on providing a cleaner and more generic implementation than the previous version, more reliability in software and hardware implementations, and adaptations for the new mission requirements. All the project, source, and documentation files are available freely on a GitHub repository \cite{ttc2-repo} under the GPLv3 (firmware) and CERN OHLv2 (hardware) licenses.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{}
+		\caption{3D view of the GNSS P.O.D PCB.}
+		\label{fig:pcb-3d}
+	\end{center}
+\end{figure}
+
+\section{Product tree}
+
+The product tree of the GNSS P.O.D module can be divided into three branches: hardware, firmware, and documentation. A diagram of the product tree is available in \autoref{fig:product-tree}.
+
+\begin{figure}[!ht]
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{user_manual/figures/gnss-pod-product-tree.png}
+        \caption{Product tree of the GNSS P.O.D module.}
+        \label{fig:product-tree}
+    \end{center}
+\end{figure}
+

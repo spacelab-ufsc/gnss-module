@@ -1,0 +1,103 @@
+%
+% main.tex
+%
+% Copyright The GNSS POD Contributors.
+%
+% GNSS POD Documentation
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+% International License. To view a copy of this license,
+% visit http://creativecommons.org/licenses/by-sa/4.0/.
+%
+
+%
+% \brief Main file.
+%
+% \author Arthur Farias de Souza Filho <arthur-filho@live.com>
+% \author João Victor Perin <joaoperin.ufsc@gmail.com>
+%
+% \version 0.0.0
+%
+% \date 2026/06/18
+%
+
+
+\documentclass[a4paper,12pt]{book}
+
+\usepackage{spacelab_book}
+
+\title{GNSS P.O.D Documentation}
+\author{SpaceLab}
+\date{\today}
+
+% File metadata
+\hypersetup
+{
+    pdfauthor   = {SpaceLab},
+    pdfsubject  = {\thetitle},
+    pdftitle    = {\thetitle},
+    pdfkeywords = {Nanosatellites, CubeSats, TTC}
+}
+
+\begin{document}
+
+    \pagenumbering{roman}
+    \setcounter{page}{1}
+
+    \input{header/titlepage}
+    \cleardoublepage
+    \input{header/authorpage}
+    \cleardoublepage
+
+    \listoffigures
+    \addcontentsline{toc}{chapter}{List of Figures}
+
+    \listoftables
+    \addcontentsline{toc}{chapter}{List of Tables}
+
+%----------- Nomenclature List ---------------
+\nomenclature{\textbf{PCB}}{\textit{Printed Circuit Board.}}
+\nomenclature{\textbf{GOLDS}}{\textit{Global Open coLlecting Data System.}}
+\nomenclature{\textbf{UFSC}}{\textit{Universidade Federal de Santa Catarina.}}
+\nomenclature{\textbf{RAM}}{\textit{Random Access Memory.}}
+\nomenclature{\textbf{RF}}{\textit{Radio Frequency.}}
+\nomenclature{\textbf{SRAM}}{\textit{Static Random Access Memory.}}
+\nomenclature{\textbf{GFSK}}{\textit{Gaussian Frequency Shift Keying.}}
+\nomenclature{\textbf{GMSK}}{\textit{Gaussian Minimum Shift Keying.}}
+\nomenclature{\textbf{NGHam}}{\textit{Next Generation Ham Radio.}}
+\nomenclature{\textbf{UART}}{\textit{Universal Asynchronous Receiver / Transmitter.}}
+\nomenclature{\textbf{SPI}}{\textit{Serial Peripheral Interface.}}
+\nomenclature{\textbf{HAL}}{\textit{Hardware Abstraction Layer.}}
+\nomenclature{\textbf{I$^2$C}}{\textit{Inter-Integrated Circuit.}}
+\nomenclature{\textbf{RTOS}}{\textit{Real Time Operating System.}}
+\nomenclature{\textbf{OBDH}}{\textit{On-Board Data Handling.}}
+\nomenclature{\textbf{EPS}}{\textit{Electric Power System.}}
+\nomenclature{\textbf{uC}}{\textit{MicroController.}}
+\nomenclature{\textbf{FEC}}{\textit{Forward Error Correction.}}
+\nomenclature{\textbf{RS}}{\textit{Reed-Solomon.}}
+\nomenclature{\textbf{JTAG}}{\textit{Joint Test Action Group.}}
+\nomenclature{\textbf{SDR}}{\textit{Software-Defined Radio.}}
+\nomenclature{\textbf{EM}}{\textit{Engineering Model.}}
+\nomenclature{\textbf{FM}}{\textit{Flight Model.}}
+\nomenclature{\textbf{TTC}}{\textit{Telemetry, Tracking and Command.}}
+\nomenclature{\textbf{CRC}}{\textit{Cyclic redundancy check.}}
+%-----------------------------------------
+
+    \printnomenclature
+    \addcontentsline{toc}{chapter}{Nomenclature}
+
+    \tableofcontents
+    \cleardoublepage
+    
+    \pagenumbering{arabic}
+    \setcounter{page}{1}
+
+    \input{chapters/introduction}
+    \input{chapters/hardware}
+    %\input{chapters/firmware}
+    \input{chapters/operation}
+    \input{chapters/assembly}
+    \input{chapters/references}
+%    \input{appendices/appendices}
+
+\end{document}
