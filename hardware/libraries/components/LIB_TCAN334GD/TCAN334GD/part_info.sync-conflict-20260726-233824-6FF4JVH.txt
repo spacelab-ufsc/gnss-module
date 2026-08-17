@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TCAN334GD
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2021-05-01 04:28:20
+Downloaded=2026-07-21 23:24:09
+3D=Y

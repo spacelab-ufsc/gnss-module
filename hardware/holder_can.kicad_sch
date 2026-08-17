@@ -1306,6 +1306,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 123.19 78.994)
+		(end 231.14 116.332)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "64c7f270-d083-4217-9ef4-27ed4169b3ca")
+	)
+	(text "ESD Protection"
+		(exclude_from_sim no)
+		(at 130.048 77.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5ea1316f-caa3-4db3-8275-34cf72fac330")
+	)
 	(junction
 		(at 86.36 102.87)
 		(diameter 0)
