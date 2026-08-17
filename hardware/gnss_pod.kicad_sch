@@ -2867,16 +2867,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "2X"
-		(exclude_from_sim no)
-		(at 47.752 70.612 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7a2cea62-99e9-4c66-9da4-188fa1d486f4")
-	)
 	(text "Holder"
 		(exclude_from_sim no)
 		(at 105.156 175.514 0)
