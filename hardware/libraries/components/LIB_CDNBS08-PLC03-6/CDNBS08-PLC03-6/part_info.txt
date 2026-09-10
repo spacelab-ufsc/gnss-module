@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=CDNBS08-PLC03-6
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2021-06-16 07:23:18
+Downloaded=2026-07-21 21:15:26
+3D=Y

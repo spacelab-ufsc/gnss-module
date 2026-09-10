@@ -1,0 +1,9 @@
+Manufacturer=SAMTEC
+PartNumber=SSQ-126-04-G-D
+PartCategory=Connector
+PackageCategory=Header, Receptacle - Straight PTH Box
+PinCount=52
+Version=3.1
+Released=2017-01-11 19:42:01
+Downloaded=2026-05-14 17:57:11
+3D=Y

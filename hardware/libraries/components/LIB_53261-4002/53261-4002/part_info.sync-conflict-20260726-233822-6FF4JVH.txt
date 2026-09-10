@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=53261-4002
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2023-07-08 13:29:18
+Downloaded=2026-07-21 23:52:44
+3D=Y

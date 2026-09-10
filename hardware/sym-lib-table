@@ -1,0 +1,9 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "53261-4002") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/53261-4002.kicad_sym") (options "") (descr ""))
+	(lib (name "CDNBS08-PLC03-6") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/CDNBS08-PLC03-6.kicad_sym") (options "") (descr ""))
+	(lib (name "SQT-110-01-L-D") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/SQT-110-01-L-D.kicad_sym") (options "") (descr ""))
+	(lib (name "SSQ-126-04-G-D") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/SSQ-126-04-G-D.kicad_sym") (options "") (descr ""))
+	(lib (name "TCAN334GD") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/TCAN334GD.kicad_sym") (options "") (descr ""))
+	(lib (name "USB4110-GF-A") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/USB4110-GF-A.kicad_sym") (options "") (descr ""))
+)

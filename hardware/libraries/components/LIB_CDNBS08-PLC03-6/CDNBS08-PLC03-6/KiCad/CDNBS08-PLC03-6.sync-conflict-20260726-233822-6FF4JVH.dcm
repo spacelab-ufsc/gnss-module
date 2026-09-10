@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CDNBS08-PLC03-6
+D Bourns CDNBS08-PLC03-6 Quint Uni-Directional TVS Diode Array, 2000W peak, 8-Pin SOIC
+K
+F https://www.bourns.com/docs/Product-Datasheets/CDNBS08_PLC03_6.pdf
+$ENDCMP
+#
+#End Doc Library
