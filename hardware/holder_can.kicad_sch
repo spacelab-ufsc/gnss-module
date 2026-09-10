@@ -6,9 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "GNSS POD - HOLDER")
-		(date "2026-07-21")
+		(date "2026-09-10")
 		(rev "0.1.0")
 		(company "SpaceLab")
+		(comment 2 "Arthur F. De S. Filho <Arthur-filho@live.com>")
+		(comment 3 "João V. Perin <Joaoperin.ufsc@gmail.com>")
 	)
 	(lib_symbols
 		(symbol "CDNBS08-PLC03-6:CDNBS08-PLC03-6"
@@ -1308,7 +1310,7 @@
 	)
 	(rectangle
 		(start 123.19 78.994)
-		(end 231.14 116.332)
+		(end 219.202 116.332)
 		(stroke
 			(width 0)
 			(type default)
