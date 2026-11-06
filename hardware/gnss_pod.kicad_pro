@@ -161,7 +161,7 @@
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -251,7 +251,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.4,
+          "diameter": 0.5,
           "drill": 0.2
         },
         {
@@ -554,7 +554,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "output/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -689,7 +689,7 @@
         "uuid": "e680590c-df34-48a7-ad22-963cfa41c0a7"
       }
     ],
-    "used_designators": "R3-4,#PWR14,FB3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
