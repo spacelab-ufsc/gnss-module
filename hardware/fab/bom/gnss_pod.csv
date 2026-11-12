@@ -1,0 +1,14 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+C1,1,0.1uF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,https://br.mouser.com/datasheet/3/508/1/UPY_GPHC_X7R_6_3V_TO_250V.pdf
+"C2,C3",2,22pF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,"Datasheet https://br.mouser.com/datasheet/3/317/1/WTC_MLCC_Automotive_MT.pdf 0 0 Center Center 0 0,https://br.mouser.com/datasheet/3/317/1/WTC_MLCC_Automotive_MT.pdf"
+"FB1,FB2",2,BMC-Q1EY0080M,,,,Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773178-3%7FA1%7Fpdf%7FEnglish%7FENG_DS_1773178-3_A1.pdf%7F2176742-3
+FB3,1,FerriteBead_Small,,,,Inductor_SMD:L_0603_1608Metric,https://mou.sr/4zvmspy
+IC1,1,CDNBS08-PLC03-6,,,,footprints:SOIC127P600X175-8N,https://www.bourns.com/docs/Product-Datasheets/CDNBS08_PLC03_6.pdf
+J1,1,SQT-110-01-L-D,x,,,footprints:SQT11001LD,https://suddendocs.samtec.com/prints/sqt-1xx-xx-xxx-x-xxx-xxx-mkt.pdf
+"J2,J3",2,SSQ-126-04-G-D,x,,,footprints:RHDR52W64P254_2X26_6655X495X864P,https://componentsearchengine.com/Datasheets/1/SSQ-126-04-G-D.pdf
+"J4,J5",2,Conn_01x02_Pin,,,,footprints:532614002,https://www.molex.com/en-us/products/part-detail/532614002?display=pdf
+J6,1,USB_C_Receptacle_USB2.0_16P,,,,footprints:USB4110GFA,https://www.mouser.com/catalog/specsheets/GCT_USB4110%20Product%20Drawing%20-%2020k%20cycles.pdf
+R1,1,330,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,https://br.mouser.com/datasheet/3/40/1/cr.pdf
+R2,1,120,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,https://br.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf
+"R3,R4",2,5K1,,,,Resistor_SMD:R_0603_1608Metric,
+U1,1,TCAN334G,,,,footprints:SOIC127P600X175-8N,http://www.ti.com/lit/ds/symlink/tcan337.pdf
